@@ -1,31 +1,74 @@
 ## Assignment Part-1
 Q1. Why do we call Python as a general purpose and high-level programming language?
+ans : Python is called a general-purpose programming language because it can be used to develop a wide range of applications, including web development, scientific computing, data analysis, artificial intelligence, machine learning, and more. It is also called a high-level programming language because it is designed to be easy to read and write, with syntax that is similar to natural language.
 
 Q2. Why is Python called a dynamically typed language?
+ans : Python is called a dynamically typed language because the data type of a variable is determined at runtime rather than at compile time. This means that a variable can hold a value of any type, and its type can be changed during the execution of the program.
 
 Q3. List some pros and cons of Python programming language?
+ans : Pros of Python:
+
+Easy to learn and use
+Large standard library
+Support for multiple programming paradigms
+Great community support
+Cross-platform compatibility
+Rich ecosystem of third-party libraries and tools
+Good for rapid prototyping and development
+Strong focus on code readability
+Cons of Python:
+
+Slow execution speed compared to compiled languages
+Global interpreter lock can limit concurrency
+Weaknesses in mobile computing and game development
+Can be difficult to optimize performance for large-scale applications
+Limited support for low-level programming tasks
 
 Q4. In what all domains can we use Python?
+ans : Python can be used in a wide range of domains, including:
+
+Web development (using frameworks like Django and Flask)
+Data science and analytics
+Machine learning and artificial intelligence
+Scientific computing
+Game development
+Network programming
+Desktop applications
+Education and research
 
 Q5. What are variable and how can we declare them?
+ans : A variable is a name given to a memory location to store a value. In Python, variables are declared by simply assigning a value to a name, for example:x = 5
 
 Q6. How can we take an input from the user in Python?
+ans : We can take input from the user in Python using the input() function, for example:name = input("What is your name? ")
+
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
+ans : The default datatype of the value taken as input using the input() function is a string.
 
 Q8. What is type casting?
+ans : Type casting is the process of converting a value from one data type to another. In Python, we can use functions like int(), float(), and str() to cast a value to a different data type.
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+ans : Yes, we can take more than one input from the user using a single input() function by using the split() method to split the input into multiple values based on a delimiter. For example:x, y, z = input("Enter three values separated by spaces: ").split() 
+If the user enters "1 2 3", this code will assign the values "1", "2", and "3" to the variables x, y, and z respectively.
+
 
 Q10. What are keywords?
+ans : Keywords are reserved words in Python that have special meanings and cannot be used as variable names. Examples of keywords in Python include if, else, while, for, def, class, import, return, and break.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+ans : No, we cannot use keywords as a variable because they are reserved words in Python with special meanings. If we try to use a keyword as a variable name, we will get a syntax error.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+ans :  Indentation is the whitespace at the beginning of a line of code that determines its level of indentation. In Python, indentation is used to indicate blocks of code, such as the body of a function or a loop. Proper indentation is crucial in Python because it determines the structure and flow of the program.
 
 Q13. How can we throw some output in Python?
+ans : print("Hello, world!")
+
 
 Q14. What are operators in Python?
+ans : Operators in Python are symbols or special keywords used to perform operations on code 
 
 Q15. What is difference between / and // operators?
 
